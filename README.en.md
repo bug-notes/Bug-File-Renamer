@@ -1,7 +1,7 @@
-<p align="center">
-  <img src="./icon.png" width="64" height="64" alt="" style="vertical-align:middle;" />
-  <b style="font-size:28px;vertical-align:middle;"> Bug File Renamer</b>
-</p>
+<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
+  <img src="./icon.png" width="64" height="64" alt="" style="flex-shrink:0;" />
+  <h1 style="margin:0;font-size:32px;">Bug File Renamer</h1>
+</div>
 <p align="center"><strong>Cross-Platform Batch Renamer · 7 Rules · Live Preview · Conflict Detection · One Click</strong></p>
 <p align="center"><strong>Rename hundreds of files in one second. Choose → Set Rules → Done — batch rename like a formula.</strong></p>
 <p align="center">
@@ -14,66 +14,55 @@
 
 ## 📥 Download
 
-> Some packages exceed 100MB. Please download from [GitHub Releases](https://github.com/BugNote/bug-file-renamer/releases).
+> Some packages exceed 100MB. Please download from [GitHub Releases](https://github.com/bug-notes/Bug-File-Renamer/releases/tag/release).
 
-[![GitHub Release](https://img.shields.io/badge/GitHub-Release-3b82f6?logo=github)](https://github.com/BugNote/bug-file-renamer/releases)
+[![GitHub Release](https://img.shields.io/badge/GitHub-Release-3b82f6?logo=github)](https://github.com/bug-notes/Bug-File-Renamer/releases/tag/release)
 
 ---
 
 ## ⚡ Highlights
 
-| Highlight | Description |
-|:-:|:-:|
-| 👁️ Live Preview | See the final result before applying — zero mistakes |
-| 🔀 Conflict Detection | Auto-adds sequential numbers to avoid overwriting |
-| 📂 Drag & Drop | Drop files or entire folders, auto-recurses subdirectories |
-| ✅ Batch Toggle | Select all / invert / single — process only what you need |
-| 🖥️ Cross-Platform | Same UI on macOS, Windows, and Linux |
-| ⚡ Offline Engine | 100% local, no internet needed, instant with thousands of files |
-| 🌐 i18n Ready | Auto-switches between Chinese and English |
+- **👁️ Live Preview** — See the final result before applying, zero mistakes
+- **🔀 Conflict Detection** — Auto-adds sequential numbers to avoid overwriting
+- **📂 Drag & Drop** — Drop files or entire folders, auto-recurses subdirectories
+- **✅ Batch Toggle** — Select all / invert / single, process only what you need
+- **🖥️ Cross-Platform** — Same UI on macOS, Windows, and Linux
+- **⚡ Offline Engine** — 100% local, no internet needed, instant with thousands of files
+- **🌐 i18n Ready** — Auto-switches between Chinese and English
 
 ---
 
 ## 🔧 7 Rename Rules
 
-| Rule | What It Does |
-|:-:|:-:|
-| 🔢 **Numbering** | Custom prefix, suffix, start value, step, and zero-padding — ascending or descending |
-| ✏️ **Modify** | Prepend or append text, or insert at a specific position |
-| ✂️ **Delete** | Delete by position, by text match, or N characters from the end |
-| 🔄 **Replace** | Plain text or regex replace — case-sensitive, global or single match |
-| 🔤 **Convert** | UPPERCASE / lowercase / Title Case / Chinese to Pinyin |
-| 📎 **Extension** | Change, convert case, or remove file extensions entirely |
-| 📅 **Date** | Insert creation or modification date with fully customizable formats |
+- **🔢 Numbering** — Custom prefix, suffix, start value, step, and zero-padding
+- **✏️ Modify** — Prepend or append text, or insert at a specific position
+- **✂️ Delete** — Delete by position, by text match, or N characters from the end
+- **🔄 Replace** — Plain text or regex, case-sensitive, global or single match
+- **🔤 Convert** — UPPERCASE / lowercase / Title Case / Chinese to Pinyin
+- **📎 Extension** — Change, convert case, or remove file extensions entirely
+- **📅 Date** — Insert creation or modification date with customizable formats
 
 ---
 
 ## 🌍 Supported Platforms
 
-| Platform | Architecture | Package |
-| :-----: | :-----------------: | :--------------------: |
-| macOS | Intel (x64) | `.dmg` |
-| macOS | Apple Silicon (ARM) | `.dmg` |
-| Windows | x64 | `.exe` installer + portable |
-| Windows | x86 (32-bit) | `.exe` installer + portable |
-| Linux | x64 | `.AppImage` |
-| Linux | ARM | `.AppImage` |
+- 🍎 **macOS** Intel (x64) / Apple Silicon (ARM) → `.dmg`
+- 🪟 **Windows** x64 / x86 (32-bit) → `.exe` installer + portable
+- 🐧 **Linux** x64 / ARM → `.AppImage`
 
 ---
 
 ## 💡 Use Cases
 
-| Scenario | Before | After |
-| :-----: | :-----------------------: | :-----------------------: |
-| 📷 Photo | `IMG_0001.jpg` | `2025-Sanya-Trip-001.jpg` |
-| 🎬 Video | `DJI_0001.MP4` | `ProjectA-Aerial-001.MP4` |
-| 👨‍💻 Dev | `old-component.js` | `component-v2.ts` |
-| 🧪 QA | `output.log` | `test_001.log` |
-| 📄 Contract | `scan0001.pdf` | `2025-CompanyX-Contract.pdf` |
-| 🎵 Music | `Track01.mp3` | `JayChou-SunnyDay.mp3` |
-| 📚 eBook | `001.pdf` | `ThreeBody-LiuCixin.pdf` |
-| 🏠 Daily | `WeChat_20250101.jpg` | `2025-01-01-Party.jpg` |
-| 🧹 DevOps | `server.log.2025-01-01` | `2025-01-01-server.log` |
+- 📷 **Photo** — Batch rename hundreds of shots with one rule, no more manual work
+- 🎬 **Video** — Auto-number drone or camera footage by project + date for clean editing workflow
+- 👨‍💻 **Dev** — Rename files in bulk during refactors, add consistent prefixes or suffixes
+- 🧪 **QA** — Generate test case files with numbering, archive logs by date
+- 📄 **Contract** — Normalize scanned documents by company name + date, find them instantly
+- 🎵 **Music** — Strip ads and gibberish from track filenames, build a clean music library
+- 📚 **eBook** — Organize your library by author + title, neatly displayed in any reader
+- 🏠 **Daily** — Sort WeChat and QQ downloads by date, say goodbye to messy folders
+- 🧹 **DevOps** — Archive server logs by date, purge expired files on schedule
 
 ---
 
