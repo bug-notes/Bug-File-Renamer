@@ -1,7 +1,7 @@
-<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
-  <img src="./icon.png" width="64" height="64" alt="Bug File Renamer" style="flex-shrink:0;" />
-  <h1 style="margin:0;">Bug File Renamer</h1>
-</div>
+<p align="center">
+  <img src="./icon.png" width="64" height="64" alt="" style="vertical-align:middle;" />
+  <b style="font-size:28px;vertical-align:middle;"> Bug File Renamer</b>
+</p>
 <p align="center"><strong>Cross-Platform Batch Renamer · 7 Rules · Live Preview · Conflict Detection · One Click</strong></p>
 <p align="center"><strong>Rename hundreds of files in one second. Choose → Set Rules → Done — batch rename like a formula.</strong></p>
 <p align="center">

@@ -1,7 +1,7 @@
-<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
-  <img src="./icon.png" width="64" height="64" alt="Bug文件重命名" style="flex-shrink:0;" />
-  <h1 style="margin:0;">Bug文件重命名</h1>
-</div>
+<p align="center">
+  <img src="./icon.png" width="64" height="64" alt="" style="vertical-align:middle;" />
+  <b style="font-size:28px;vertical-align:middle;"> Bug文件重命名</b>
+</p>
 <p align="center"><strong>跨平台批量文件重命名 · 7 种规则 · 实时预览 · 冲突检测 · 一键完成</strong></p>
 <p align="center"><strong>几百个文件名一秒改完，选文件 → 设规则 → 一键完成，像写公式一样批量重命名。</strong></p>
 <p align="center">
