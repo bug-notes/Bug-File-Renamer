@@ -1,7 +1,5 @@
-<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
-  <img src="./icon.png" width="64" height="64" alt="" style="flex-shrink:0;" />
-  <h1 style="margin:0;font-size:32px;">Bug File Renamer</h1>
-</div>
+<p align="center"><img src="./icon.png" width="100" height="100" alt="" style="flex-shrink:0;" /></p>
+<p align="center"><strong style="font-size:32px;">Bug File Renamer</strong></p>
 <p align="center"><strong>Cross-Platform Batch Renamer · 7 Rules · Live Preview · Conflict Detection · One Click</strong></p>
 <p align="center"><strong>Rename hundreds of files in one second. Choose → Set Rules → Done — batch rename like a formula.</strong></p>
 <p align="center">
@@ -9,6 +7,11 @@
   <img src="https://img.shields.io/badge/Windows-x64%20%7C%20x86-green" alt="Windows">
   <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM-orange" alt="Linux">
 </p>
+<p align="right"><a href="./README.md">中文</a> · English</p>
+
+---
+
+![screenshot](./screenshot-en.png)
 
 ---
 

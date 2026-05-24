@@ -1,7 +1,5 @@
-<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
-  <img src="./icon.png" width="64" height="64" alt="" style="flex-shrink:0;" />
-  <h1 style="margin:0;font-size:32px;">Bug文件重命名</h1>
-</div>
+<p align="center"><img src="./icon.png" width="100" height="100" alt="" style="flex-shrink:0;" /></p>
+<p align="center"><strong style="font-size:32px;">Bug文件重命名</strong></p>
 <p align="center"><strong>跨平台批量文件重命名 · 7 种规则 · 实时预览 · 冲突检测 · 一键完成</strong></p>
 <p align="center"><strong>几百个文件名一秒改完，选文件 → 设规则 → 一键完成，像写公式一样批量重命名。</strong></p>
 <p align="center">
@@ -9,6 +7,11 @@
   <img src="https://img.shields.io/badge/Windows-x64%20%7C%20x86-green" alt="Windows">
   <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM-orange" alt="Linux">
 </p>
+<p align="right"><a href="./README.en.md">English</a> · 中文</p>
+
+---
+
+![screenshot](./screenshot-cn.png)
 
 ---
 
@@ -18,7 +21,7 @@
 
 [![GitHub Release](https://img.shields.io/badge/GitHub-Release-3b82f6?logo=github)](https://github.com/bug-notes/Bug-File-Renamer/releases/tag/release)
 
----
+
 
 ## ⚡ 核心亮点
 
