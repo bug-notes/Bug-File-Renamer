@@ -1,7 +1,7 @@
 <p align="center"><img src="./icon.png" width="100" height="100" alt="" style="flex-shrink:0;" /></p>
 <p align="center"><strong style="font-size:32px;">Bug文件重命名</strong></p>
 <p align="center"><strong>跨平台批量文件重命名 · 7 种规则 · 实时预览 · 冲突检测 · 一键完成</strong></p>
-<p align="center"><strong>几百个文件名一秒改完，选文件 → 设规则 → 一键完成，像写公式一样批量重命名。</strong></p>
+<p align="center"><strong>几百个文件名一秒改完，选文件 → 设规则 → 一键完成，像写公式一样批量重命名</strong></p>
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20Silicon-blue" alt="macOS">
   <img src="https://img.shields.io/badge/Windows-x64%20%7C%20x86-green" alt="Windows">
