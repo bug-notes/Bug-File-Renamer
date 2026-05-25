@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except these files
+!.gitignore
+!README.en.md
+!README.md
+!icon.png
+!screenshot-cn.png
+!screenshot-en.png
