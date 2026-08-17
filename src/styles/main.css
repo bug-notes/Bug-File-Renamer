@@ -1,0 +1,163 @@
+/* ── Global Reset & Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** 页面 body 基础样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #1f2937;
+  color: #111827;
+  overflow: hidden;
+}
+
+/* ── Scrollbar ── */
+/** 滚动条宽度 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+/** 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/** 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+/** 滚动条滑块悬停态 */
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* ── Buttons ── */
+/** 按钮基础样式 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s, opacity 0.15s;
+  color: #fff;
+}
+/** 按钮禁用态 */
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/** 蓝色按钮 */
+.btn-blue {
+  background: #3b82f6;
+  border-color: #2563eb;
+}
+/** 蓝色按钮悬停态 */
+.btn-blue:hover:not(:disabled) {
+  background: #2563eb;
+}
+/** 绿色按钮 */
+.btn-green {
+  background: #22c55e;
+  border-color: #16a34a;
+}
+/** 绿色按钮悬停态 */
+.btn-green:hover:not(:disabled) {
+  background: #16a34a;
+}
+/** 灰色按钮 */
+.btn-gray {
+  background: #4b5563;
+  border-color: #374151;
+}
+/** 灰色按钮悬停态 */
+.btn-gray:hover:not(:disabled) {
+  background: #374151;
+}
+
+/* ── Checkbox ── */
+/** 复选框样式 */
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+
+/* ── Select ── */
+/** 下拉框自定义箭头 */
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 28px;
+}
+
+/* ── Tooltip ── */
+/** 自定义 tooltip 容器 */
+.tip {
+  position: relative;
+  cursor: pointer;
+}
+/** tooltip 文字气泡，悬停即刻显示（显示在下方避免被顶部遮挡） */
+.tip::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  background: #1f2937;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+  z-index: 100;
+}
+/** 悬停时显示 tooltip */
+.tip:hover::after {
+  opacity: 1;
+}
+/** 靠右时向左对齐，避免被右侧边界裁切 */
+.tip-left::after {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+/* ── Rule Form ── */
+/** 表单组标签 */
+.rule-form .form-group label {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 600;
+}
+/** 表单输入框和下拉框 */
+.rule-form .form-group input,
+.rule-form .form-group select {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #111827;
+  background: #fff;
+  font-family: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+/** 输入框聚焦态：蓝色边框 + 发光阴影 */
+.rule-form .form-group input:focus,
+.rule-form .form-group select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
+}

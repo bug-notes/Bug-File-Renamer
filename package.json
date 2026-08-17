@@ -1,0 +1,97 @@
+{
+  "name": "BugRenamer",
+  "version": "1.0.0",
+  "description": "跨平台桌面端文件名批量修改工具",
+  "author": "Bug笔记 <foreverox@vip.qq.com>",
+  "homepage": "https://www.seeseeu.cn",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite build && electron .",
+    "test": "node --test tests/",
+    "build:mac": "vite build && electron-builder --mac",
+    "build:win": "vite build && electron-builder --win",
+    "build:linux": "vite build && electron-builder --linux",
+    "build:all": "vite build && electron-builder --mac --win --linux"
+  },
+  "build": {
+    "appId": "com.bugnote.app",
+    "directories": {
+      "output": "release"
+    },
+    "productName": "Bug File Renamer",
+    "artifactName": "BugFileRenamer-${version}-${os}-${arch}.${ext}",
+    "asar": true,
+    "files": [
+      "main.js",
+      "preload.js",
+      "appInfo.json",
+      "src/utils/*.js",
+      "assets/about.html",
+      "dist/**/*",
+      "assets/**/*",
+      "!assets/icon.svg"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.png"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "compression": "maximum",
+      "icon": "assets/icon.png"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.png",
+      "category": "Utility"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.3",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.0",
+    "electron": "^25.9.8",
+    "electron-builder": "^24.0.0",
+    "vite": "^4.5.0"
+  }
+}

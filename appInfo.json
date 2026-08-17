@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "Bug笔记",
+  "name": {
+    "zh": "Bug文件重命名",
+    "en": "Bug File Renamer"
+  },
+  "title": {
+    "zh": "Bug文件重命名 By Bug笔记",
+    "en": "Bug File Renamer By Bug Notes"
+  },
+  "description": {
+    "zh": "跨平台文件名批量修改工具",
+    "en": "Cross-platform batch file renaming tool"
+  },
+  "website": "www.seeseeu.cn",
+  "updateUrl": "https://www.seeseeu.cn/updates/bug-file-renamer",
+  "adUrl": "https://www.seeseeu.cn/ad/bug-file-renamer"
+}

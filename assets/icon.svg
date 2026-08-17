@@ -1,0 +1,85 @@
+
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb" />
+      <stop offset="100%" style="stop-color:#1e40af" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full Background -->
+  <rect
+    x="0"
+    y="0"
+    width="1024"
+    height="1024"
+    rx="220"
+    fill="url(#bgGradient)"
+  />
+
+  <!-- Folders -->
+  <g opacity="0.75" transform="scale(1.08) translate(-38 -38)">
+    <!-- Top Folder -->
+    <path
+      d="M400 240h80l40 40h160a40 40 0 0 1 40 40v160a40 40 0 0 1-40 40H400a40 40 0 0 1-40-40V280a40 40 0 0 1 40-40z"
+      fill="white"
+    />
+
+    <!-- Bottom Folder -->
+    <path
+      d="M400 520h80l40 40h160a40 40 0 0 1 40 40v160a40 40 0 0 1-40 40H400a40 40 0 0 1-40-40V560a40 40 0 0 1 40-40z"
+      fill="white"
+    />
+  </g>
+
+  <!-- Pencil -->
+  <g transform="translate(512 512) rotate(-45) scale(1.38)">
+    <!-- Pencil Body -->
+    <rect
+      x="-320"
+      y="-80"
+      width="480"
+      height="160"
+      rx="20"
+      fill="#fbbf24"
+    />
+
+    <!-- Eraser Holder -->
+    <rect
+      x="160"
+      y="-80"
+      width="60"
+      height="160"
+      fill="#94a3b8"
+    />
+
+    <!-- Eraser -->
+    <path
+      d="M220 -80h60a40 40 0 0 1 40 40v80a40 40 0 0 1-40 40h-60z"
+      fill="#f472b6"
+    />
+
+    <!-- Pencil Tip -->
+    <path
+      d="M-320 -80l-120 80 120 80z"
+      fill="#fde68a"
+    />
+
+    <!-- Lead -->
+    <path
+      d="M-400 -26l-40 26 40 26z"
+      fill="#1e293b"
+    />
+
+    <!-- Shine -->
+    <rect
+      x="-300"
+      y="-60"
+      width="440"
+      height="20"
+      rx="10"
+      fill="white"
+      opacity="0.3"
+    />
+  </g>
+</svg>
