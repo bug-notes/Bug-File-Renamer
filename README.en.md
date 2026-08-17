@@ -234,7 +234,7 @@
 
 #### File Tree
 
-- **Default Directories** — one-click access to `Desktop`/`Downloads`/`Documents`/`Pictures`/`Music` system paths
+- **Default Directories** — root nodes shown by default: user home directory on macOS/Linux, standard folders (Desktop/Downloads/Documents/Music/Pictures/Videos) and drives on Windows; expand to enter subdirectories
 - **Lazy Loading** — child directories load on expand, only root nodes initially
 - **Permission Aware** — locked icon on no-permission directories, click prompts user to grant access in System Settings
 - **State Persistence** — restores previous expand state after refresh, no lost navigation
